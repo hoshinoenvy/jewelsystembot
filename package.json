@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "hoshinoenvy",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

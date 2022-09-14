@@ -1,0 +1,2193 @@
+{
+  "functions/events/discord/message/create/prefix/role.js": {
+    "event": {
+      "type": 0,
+      "tts": false,
+      "timestamp": "2022-09-09T19:05:17.579000+00:00",
+      "referenced_message": null,
+      "pinned": false,
+      "nonce": "1017873347976888320",
+      "mentions": [],
+      "mention_roles": [],
+      "mention_everyone": false,
+      "member": {
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null
+      },
+      "id": "1017873349021536278",
+      "flags": 0,
+      "embeds": [],
+      "edited_timestamp": null,
+      "content": "!role",
+      "components": [],
+      "channel_id": "761911943971340319",
+      "author": {
+        "username": "hoshinoenvy",
+        "public_flags": 128,
+        "id": "959110946528325722",
+        "discriminator": "9717",
+        "avatar_decoration": null,
+        "avatar": "0a5557e3bd570576ba68411b11aee044"
+      },
+      "attachments": [],
+      "guild_id": "724993544653373530"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-red.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-green.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-azure.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-orange.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-silver.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-white.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/message/button/interaction-colormenu-black.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxNzg4NzkxNTkzOTk5MTYxMzpWM2F6aFoxeDF1ckNFa1FDYXZqNk5kY1p0OUdoazVadWo5eldZQ0p6VU4yZ3VGdGhwejVIcDJjVTduRXlDRzBhc2VpYTluaEVLQktqaFhLUXJCbzdMVTB5VHc3Z25pMG1FTVp3bEtSajI3T29GVzBwamZza3pDaTE3R0tpa0ZFZg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-09T20:02:28.232000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1017887738223132692",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Color Roles",
+            "description": "You can select more than one color, but only one will affect your nickname's color.\n\nThe <@&808333560662327316> role is required.\nIf you're missing the role, please go to <#761911943971340318>.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Perfect Scarlet",
+                "emoji": {
+                  "name": "ColorRoleCherryRed",
+                  "id": "1017182715113644132"
+                },
+                "custom_id": "colormenu_red"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Blossom Pink",
+                "emoji": {
+                  "name": "ColorRoleBlossomPink",
+                  "id": "1017182713851154473"
+                },
+                "custom_id": "colormenu_pink"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Grape Violet",
+                "emoji": {
+                  "name": "ColorRoleGrapeViolet",
+                  "id": "1017182716409688185"
+                },
+                "custom_id": "colormenu_violet"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Acqua Blue",
+                "emoji": {
+                  "name": "ColorRoleAcquaBlue",
+                  "id": "1017182712290889779"
+                },
+                "custom_id": "colormenu_blue"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Kiwi Green",
+                "emoji": {
+                  "name": "ColorRolePearGreen",
+                  "id": "1017182718947229798"
+                },
+                "custom_id": "colormenu_green"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Lemonade Yellow",
+                "emoji": {
+                  "name": "ColorRoleLemonadeYellow",
+                  "id": "1017182717680570498"
+                },
+                "custom_id": "colormenu_yellow"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Azure Sky",
+                "emoji": {
+                  "name": "ColorRoleAzureSky",
+                  "id": "1017851823111032883"
+                },
+                "custom_id": "colormenu_sky"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Juicy Orange",
+                "emoji": {
+                  "name": "ColorRoleJuicyOrange",
+                  "id": "1017851962127036508"
+                },
+                "custom_id": "colormenu_orange"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Starlight Gold",
+                "emoji": {
+                  "name": "ColorRoleStarlightGold",
+                  "id": "1017831139949412562"
+                },
+                "custom_id": "colormenu_gold"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Moonlight Silver",
+                "emoji": {
+                  "name": "ColorRoleMoonlightSilver",
+                  "id": "1017831138716291133"
+                },
+                "custom_id": "colormenu_silver"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Eternal Light",
+                "emoji": {
+                  "name": "ColorRoleEternalLight",
+                  "id": "1017854976535580732"
+                },
+                "custom_id": "white"
+              },
+              {
+                "type": 2,
+                "style": 2,
+                "label": "Infinite Night",
+                "emoji": {
+                  "name": "ColorRoleInfiniteNight",
+                  "id": "1017854978100056185"
+                },
+                "custom_id": "colormenu_black"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017887915939991613",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "custom_id": "colormenu_red",
+        "component_type": 2
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-09T20:03:10.668Z"
+    }
+  },
+  "functions/events/discord/command/createnotice_movienight.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246MTAxNzk4NjM5MzcxNDIwMDY1OTptbmx1VmdrQm0zYmhzdjhZRDVpRUdYeHUxMWY0RHh5a0VkUVdyTGhzY2RZeWZpcmJ3NVlqdFpaZDJtWWtqUjRxcFp1RVZNbGM1c004bWJEZ0VKV1V0Vmswd0xxOUZad1JzS29ZNkIzMVJKOXpHaUlFQjNNRzhZQWFsTXVpVW93QQ",
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017986393714200659",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "type": 1,
+        "name": "createnotice_movienight",
+        "id": "1017986047554101360",
+        "guild_id": "724993544653373530",
+        "options": []
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-10T02:34:29.718Z"
+    }
+  },
+  "functions/events/discord/command/createnotice_serverrules.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246MTAxNzk4NjM5MzcxNDIwMDY1OTptbmx1VmdrQm0zYmhzdjhZRDVpRUdYeHUxMWY0RHh5a0VkUVdyTGhzY2RZeWZpcmJ3NVlqdFpaZDJtWWtqUjRxcFp1RVZNbGM1c004bWJEZ0VKV1V0Vmswd0xxOUZad1JzS29ZNkIzMVJKOXpHaUlFQjNNRzhZQWFsTXVpVW93QQ",
+      "member": {
+        "user": {
+          "username": "hoshinoenvy",
+          "public_flags": 128,
+          "id": "959110946528325722",
+          "discriminator": "9717",
+          "avatar_decoration": null,
+          "avatar": "0a5557e3bd570576ba68411b11aee044"
+        },
+        "roles": [
+          "990800786646777896",
+          "808333560662327316",
+          "1014658172365062164",
+          "1014658172365062167",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": "[♕] Envy☆Hoshino",
+        "mute": false,
+        "joined_at": "2022-03-31T15:29:39.628000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1017986393714200659",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "type": 1,
+        "name": "createnotice_movienight",
+        "id": "1017986047554101360",
+        "guild_id": "724993544653373530",
+        "options": []
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-10T02:34:29.718Z"
+    }
+  },
+  "functions/events/discord/message/button/selection-serverrule.js": {
+    "event": {
+      "version": 1,
+      "type": 3,
+      "token": "aW50ZXJhY3Rpb246MTAxODE1MTAzNTQ4ODk3Mjg1MDpkcWtDUG80TkhuRjFxZ0c1ME94eklQRm9hcHJ3VWVQMXRRS3dEUUJOOWNZU1ZkdUhkU2d5bnREOHlxVWpubEJyb3hPMTI3clZ4NDlLNG9naVZFaE1YanBZZ1NXa3NVaVhvYVBaNzJUeGhHTWJiamY0ZUFtdUF5SWo4U2xTdXR1Rg",
+      "message": {
+        "type": 0,
+        "tts": false,
+        "timestamp": "2022-09-10T13:28:36.207000+00:00",
+        "pinned": false,
+        "mentions": [],
+        "mention_roles": [],
+        "mention_everyone": false,
+        "id": "1018151006191767624",
+        "flags": 0,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "◈ Jewel☆Star's Server Rules",
+            "description": "⠀\n**◈ Follow Discord's TOS and be 18+**\nIf you're found to be any younger, you'll be kicked immediately following the server's TOS.\n\n**◈ Use common sense**\nThere are rules but like... if you have common sense, these shouldn't even have to be said.\n\n**◈ Be respectful**\nHarassment, witch hunting, sexism, racism, homophobia, or any amount of hate speech will be tolerated.\n\n**◈ Avoid offensive remarks,**messages, nicknames, and anything that a reasonable person might find offensive.\n\n**◈ Keep Drama off the server**\nI don't need that stuff here...\n\n**◈ Avoid political topics**\nI don't need that stuff here either...\n\n**◈ No spamming**\nThis includes but is not limited too, loud/obnoxious noises in voice, @ mention spam, character spam, image spam, and message spam.\n\n**◈ No Gore or scary content**\nFor example; screamer links, anything horror related, or death.\n\n**◈ Keep all the lewd stuff in the lewd channels**\nAsk me, the admins, or the mods for the R-18 role.\n\n**◈ No harassment**\nIncluding sexual harassment or encouraging of harassment.\n\n**◈ Please make use of the appropriate channels**\n\n**◈ No self or user bots**\nThese are in some cases against the discord TOS and if you need a bot for something use one of the bots already in the server.\n\n**◈ Swearing is allowed**\nThough this does not mean it's okay to be a douchebag to people.\n\n**◈ If you see something against the rules or something that makes you feel unsafe, let staff know.**\nWe want this server to be a welcoming space!\n\n**◈ Envy is exempt from all rules** and may make exemptions.\n\n**◈ If you don’t like Zikoure,** unspeakable things may occur.\n\n**◈ There may be situations not covered by the rules or times where rules may not fit the situation.**\nIf this happens the moderators are trusted to handle the situation appropriately.\n\n\n**By reacting with⠀🔴⠀in the dropdown menu below, you agree to follow the above rules.**\nIf you refuse, you'll be kicked out immediately.",
+            "color": 16690636
+          }
+        ],
+        "edited_timestamp": null,
+        "content": "",
+        "components": [
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 3,
+                "placeholder": "Please make a selection",
+                "options": [
+                  {
+                    "value": "serverrule_agree",
+                    "label": "⠀Agree with the rules",
+                    "emoji": {
+                      "name": "🔴"
+                    },
+                    "description": "⠀Click this and you'll unlock the rest of the server"
+                  },
+                  {
+                    "value": "serverrule_disagree",
+                    "label": "⠀Disagree with the rules",
+                    "emoji": {
+                      "name": "🟢"
+                    },
+                    "description": "⠀Click this and you'll be kicked out immediately"
+                  }
+                ],
+                "min_values": 1,
+                "max_values": 1,
+                "custom_id": "ruleselection"
+              }
+            ]
+          }
+        ],
+        "channel_id": "761911943971340319",
+        "author": {
+          "username": "Jewel☆System",
+          "public_flags": 0,
+          "id": "1017859656581918841",
+          "discriminator": "6777",
+          "bot": true,
+          "avatar_decoration": null,
+          "avatar": "8df0fd8f22745910488fba8945c4c9f4"
+        },
+        "attachments": []
+      },
+      "member": {
+        "user": {
+          "username": "nanahoshiai",
+          "public_flags": 0,
+          "id": "882266925382635590",
+          "discriminator": "7765",
+          "avatar_decoration": null,
+          "avatar": "b79692e5d3b82de4ee543edf668c6cce"
+        },
+        "roles": [
+          "808333560662327316",
+          "902384060050063420"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2022-09-10T13:00:55.545000+00:00",
+        "is_pending": false,
+        "flags": 1,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-US",
+      "id": "1018151035488972850",
+      "guild_locale": "en-US",
+      "guild_id": "724993544653373530",
+      "data": {
+        "values": [
+          "serverrule_agree"
+        ],
+        "custom_id": "ruleselection",
+        "component_type": 3
+      },
+      "channel_id": "761911943971340319",
+      "application_id": "1017859656581918841",
+      "app_permissions": "4398046511103",
+      "received_at": "2022-09-10T13:28:43.784Z"
+    }
+  }
+}

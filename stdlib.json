@@ -1,0 +1,157 @@
+{
+  "name": "hoshinoenvy/jewelsystem-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/ping.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ping"
+      }
+    },
+    "functions/events/discord/message/create/prefix/warn.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!warn"
+      }
+    },
+    "functions/events/discord/message/create/prefix/role.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!role"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-red.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_red"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-pink.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_pink"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-violet.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_violet"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-blue.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_blue"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-yellow.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_yellow"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-gold.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_gold"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-green.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_green"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-azure.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_sky"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-orange.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_orange"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-silver.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_silver"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-white.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "white"
+      }
+    },
+    "functions/events/discord/message/button/interaction-colormenu-black.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "colormenu_black"
+      }
+    },
+    "functions/events/discord/command/createnotice_screeningstart30.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createnotice_screeningstart30"
+      }
+    },
+    "functions/events/discord/command/createnotice_screeningstart05.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createnotice_screeningstart05"
+      }
+    },
+    "functions/events/discord/command/createmenu_colortags.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createmenu_colortags"
+      }
+    },
+    "functions/events/discord/command/createnotice_movienight.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createnotice_movienight"
+      }
+    },
+    "functions/events/discord/command/createnotice_serverrules.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createnotice_serverrules"
+      }
+    },
+    "functions/events/discord/message/button/selection-serverrule.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "ruleselection"
+      }
+    },
+    "functions/events/discord/message/create/prefix/say.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!say"
+      }
+    },
+    "functions/events/discord/command/createmenu_activities.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createmenu_activities"
+      }
+    },
+    "functions/events/discord/command/createmenu_oshimarks.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createmenu_oshimarks"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "cmd_channel_id",
+      "description": "CMD LOGs CHANNEL ID"
+    }
+  ]
+}
